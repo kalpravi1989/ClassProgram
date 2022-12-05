@@ -32,10 +32,10 @@ public class ListOmit2 {
 
 	@Test
 	public void test2() {
-		List<Integer> al = new ArrayList(Arrays.asList(0));
+		List<Integer> al = new ArrayList(Arrays.asList(1, 4, 66));
 		List<Integer> ans = mutiplyOmit2(al);
 		System.out.println(ans);
-		List<Integer> exp = new ArrayList(Arrays.asList(0));
+		List<Integer> exp = new ArrayList(Arrays.asList(8));
 		Assert.assertEquals(ans, exp);
 	}
 

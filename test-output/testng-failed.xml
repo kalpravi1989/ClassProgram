@@ -5,7 +5,7 @@
     <classes>
       <class name="classProgram.ListOmit2">
         <methods>
-          <include name="test"/>
+          <include name="test2"/>
         </methods>
       </class> <!-- classProgram.ListOmit2 -->
     </classes>
